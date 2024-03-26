@@ -4,21 +4,21 @@ function Header(props) {
     return (
         <div class='header'>
             <nav class="navbar fixed-top">
-                <div class="container-fluid border border-danger">
+                <div class="container-fluid ps-4 border border-danger">
                     <div class="raw d-flex w-100">
                         <div class="col-6 col-md-12 border border-success">
                             <ul class="nav nav-underline justify-content-evenly align-items-center d-none d-md-flex ">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#main">Main</a>
+                                    <a class="nav-link text-white fs-5" href="#main">Main</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#company">About company</a>
+                                    <a class="nav-link text-white fs-5" href="#company">About company</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#services">Services</a>
+                                    <a class="nav-link text-white fs-5" href="#services">Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-center border border-success" href="#main">
+                                    <a class="nav-link text-white fs-5 text-center border border-success" href="#main">
                                         <h5>Future
                                             <br />
                                             Skyscrapers
@@ -27,16 +27,16 @@ function Header(props) {
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href='#projects'>Projects</a>
+                                    <a class="nav-link text-white fs-5" href='#projects'>Projects</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href='#news'>News</a>
+                                    <a class="nav-link text-white fs-5" href='#news'>News</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href='#communication'>Communication</a>
+                                    <a class="nav-link text-white fs-5" href='#communication'>Communication</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href='#communication'>En</a>
+                                    <a class="nav-link text-white fs-5" href='#communication'>En</a>
                                 </li>
                             </ul>
                             <button class="navbar-toggler d-md-none mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
