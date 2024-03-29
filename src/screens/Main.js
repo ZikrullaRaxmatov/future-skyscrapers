@@ -5,7 +5,7 @@ function Main(props) {
     return (
         <div class="main">
             <img class="main-image" src={mainImg} alt='mainImg' />
-            <div class="container border border-danger">
+            <div class="container">
                 <div class="main-info">
                     <p class="d-md-none main-info-p-sm">Excellence in everything</p>
                     <p class="d-none main-info-p-md d-md-block d-lg-none">Excellence in everything</p>

@@ -41,7 +41,8 @@ function Header(props) {
                                 </li>
                             </ul>
                             <button class="navbar-toggler d-md-none mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                {/* <span class="navbar-toggler-icon"></span> */}
+                                <span><i class="fa-solid fa-sliders"></i></span>
                             </button>
                         </div>
                         <div class="col-6 d-flex justify-content-end d-md-none border border-danger ">
