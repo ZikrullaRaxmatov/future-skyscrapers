@@ -1,3 +1,6 @@
+.bg-color-light {
+  background-color: rgb(79, 79, 236);
+}
 
 /* Main */
 
@@ -43,7 +46,7 @@
   right: 260px;
 }
 
-.main-info h1{
+.main-info h1 {
   position: absolute;
 }
 
@@ -73,7 +76,7 @@
 
 .main-info button:hover {
   background-color: rgb(53, 53, 240);
-  border-color:  rgb(53, 53, 240);
+  border-color: rgb(53, 53, 240);
 }
 
 .main-btn-sm {

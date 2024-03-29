@@ -52,7 +52,7 @@ function Header(props) {
                                     </h5>
                                 </a>
                             </a>
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas offcanvas-end bg-color-light text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
                                         <a class="nav-link text-center border border-success" href="#main">
@@ -67,25 +67,25 @@ function Header(props) {
                                 <div class="offcanvas-body">
                                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#main">Main</a>
+                                            <a class="nav-link text-white " href="#main">Main</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#company">About company</a>
+                                            <a class="nav-link text-white" href="#company">About company</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#services">Services</a>
+                                            <a class="nav-link text-white" href="#services">Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href='#projects'>Projects</a>
+                                            <a class="nav-link text-white" href='#projects'>Projects</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href='#news'>News</a>
+                                            <a class="nav-link text-white" href='#news'>News</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href='#communication'>Communication</a>
+                                            <a class="nav-link text-white" href='#communication'>Communication</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href='#communication'>En</a>
+                                            <a class="nav-link text-white" href='#communication'>En</a>
                                         </li>
                                     </ul>
                                 </div>
