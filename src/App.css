@@ -2,6 +2,10 @@
   background-color: rgb(79, 79, 236);
 }
 
+.header-text {
+  color: rgb(59, 59, 238);
+}
+
 /* Main */
 
 .main-image {
@@ -29,6 +33,7 @@
   position: absolute;
   font-style: italic;
   font-weight: bold;
+  /* color: rgb(59, 59, 238); */
 }
 
 .main-info-p-sm {

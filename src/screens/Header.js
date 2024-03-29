@@ -3,40 +3,41 @@ import React from 'react';
 function Header(props) {
     return (
         <div class='header'>
-            <nav class="navbar fixed-top">
-                <div class="container border border-danger">
+            <nav class="navbar fixed-top mt-3">
+                <div class="container ">
                     <div class="raw d-flex w-100">
-                        <div class="col-6 col-md-12 border border-success">
+                        <div class="col-6 col-md-12 ">
                             <ul class="nav nav-underline justify-content-evenly align-items-center d-none d-md-flex ">
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href="#main">Main</a>
+                                    <a class="nav-link header-text" href="#main">Main</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href="#company">About</a>
+                                    <a class="nav-link header-text" href="#company">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href="#services">Services</a>
+                                    <a class="nav-link header-text" href="#services">Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5 text-center border border-success" href="#main">
+                                    <a class="nav-link text-white text-center" href="#main">
                                         <h5>Future
                                             <br />
                                             Skyscrapers
                                         </h5>
                                     </a>
                                 </li>
-
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href='#projects'>Projects</a>
+                                    <a class="nav-link header-text" href='#projects'>Projects</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href='#news'>News</a>
+                                    <a class="nav-link header-text" href='#communication'>Contact</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href='#communication'>Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href='#communication'>En</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle header-text" data-bs-toggle="dropdown" href="#lan" role="button" aria-expanded="false">Lang</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#eng">Eng</a></li>
+                                        <li><a class="dropdown-item" href="#uzb">Uzb</a></li>
+                                        <li><a class="dropdown-item" href="#kor">Kor</a></li>
+                                    </ul>
                                 </li>
                             </ul>
                             <button class="navbar-toggler d-md-none mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -45,7 +46,7 @@ function Header(props) {
                         </div>
                         <div class="col-6 d-flex justify-content-end d-md-none border border-danger ">
                             <a class="nav-link  d-md-none" href="#!">
-                                <a class="nav-link text-center border border-success" href="#main">
+                                <a class="nav-link text-center" href="#main">
                                     <h5>Future
                                         <br />
                                         Skyscrapers
@@ -55,7 +56,7 @@ function Header(props) {
                             <div class="offcanvas offcanvas-end bg-color-light text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                                        <a class="nav-link text-center border border-success" href="#main">
+                                        <a class="nav-link text-center" href="#main">
                                             <h5>Future
                                                 <br />
                                                 Skyscrapers
