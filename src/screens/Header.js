@@ -4,7 +4,7 @@ function Header(props) {
     return (
         <div class='header'>
             <nav class="navbar fixed-top">
-                <div class="container-fluid ps-4 border border-danger">
+                <div class="container border border-danger">
                     <div class="raw d-flex w-100">
                         <div class="col-6 col-md-12 border border-success">
                             <ul class="nav nav-underline justify-content-evenly align-items-center d-none d-md-flex ">
@@ -12,7 +12,7 @@ function Header(props) {
                                     <a class="nav-link text-white fs-5" href="#main">Main</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href="#company">About company</a>
+                                    <a class="nav-link text-white fs-5" href="#company">About</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-white fs-5" href="#services">Services</a>
@@ -33,7 +33,7 @@ function Header(props) {
                                     <a class="nav-link text-white fs-5" href='#news'>News</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white fs-5" href='#communication'>Communication</a>
+                                    <a class="nav-link text-white fs-5" href='#communication'>Contact</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-white fs-5" href='#communication'>En</a>

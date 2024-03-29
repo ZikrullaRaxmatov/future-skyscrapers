@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+
+/* Main */
+
+.main-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* main-image img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.main-info {
+  position: relative;
+  width: 100%;
+  height: auto;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-info p {
+  position: absolute;
+  font-style: italic;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-info-p-sm {
+  top: 165px;
+  left: 0px;
+}
+
+.main-info-p-md {
+  top: 255px;
+  right: 175px;
+}
+
+.main-info-p-lg {
+  top: 280px;
+  right: 260px;
+}
+
+.main-info h1{
+  position: absolute;
+}
+
+.main-info-h-sm {
+  top: 185px;
+  left: 0px;
+  font-size: 50px;
+}
+
+.main-info-h-md {
+  top: 275px;
+  right: 0px;
+  font-size: 65px;
+}
+
+.main-info-h-lg {
+  top: 300px;
+  right: 0px;
+  font-size: 80px;
+}
+
+.main-info button {
+  position: absolute;
+  color: white;
+  border-color: white;
+}
+
+.main-info button:hover {
+  background-color: rgb(53, 53, 240);
+  border-color:  rgb(53, 53, 240);
+}
+
+.main-btn-sm {
+  top: 355px;
+}
+
+.main-btn-md {
+  top: 380px;
+}
+
+.main-btn-lg {
+  top: 435px;
+}
+
+.main-btn-sm-project {
+  margin-top: 50px;
+}
+
+.main-btn-md-project {
+  margin-left: 120px;
+}
+
+.main-btn-lg-project {
+  margin-left: 140px;
 }

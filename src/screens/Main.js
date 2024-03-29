@@ -3,17 +3,29 @@ import mainImg from '../assets/imageMain.avif'
 
 function Main(props) {
     return (
-        <div class="main border border-danger">
-            <img class="w-1000 " style={{ height: "650px" }} src={mainImg} alt='mainImg' />
-            <div class="container">
-                <div class="main-info card-img-overlay">
-                    <div class="position-absolute top-50 start-50 ms-5 border border-danger">
-                        <p class="text-white fw-bold fst-italic">Excellence in everything</p>
-                        <h1 class="text-white " style={{ fontSize: "80px" }} >Future <br /> Skyscrapers</h1>
+        <div class="main">
+            <img class="main-image" src={mainImg} alt='mainImg' />
+            <div class="container border border-danger">
+                <div class="main-info">
+                    <p class="d-md-none main-info-p-sm">Excellence in everything</p>
+                    <p class="d-none main-info-p-md d-md-block d-lg-none">Excellence in everything</p>
+                    <p class="d-none main-info-p-lg d-lg-block">Excellence in everything</p>
+
+                    <h1 class="d-md-none main-info-h-sm" >Future <br /> Skyscrapers</h1>
+                    <h1 class="d-none main-info-h-md d-md-block d-lg-none " >Future <br /> Skyscrapers</h1>
+                    <h1 class="d-none main-info-h-lg d-lg-block " >Future <br /> Skyscrapers</h1>
+
+                    <div class="d-flex justify-content-center d-md-none ">
+                        <button class=" main-btn-sm btn rounded-pill">Connection</button>
+                        <button class=" main-btn-sm btn main-btn-sm-project rounded-pill">Our projects</button>
                     </div>
-                    <div class="position-absolute top-50 start-0" style={{ marginTop: "200px", marginLeft: "100px" }}>
-                        <button class="btn text-white border border-white rounded-pill">Our projects</button>
-                        <button class="btn text-white border border-white rounded-pill ms-3">Connection</button>
+                    <div class="d-none d-md-flex d-lg-none">
+                        <button class=" main-btn-md btn rounded-pill">Connection</button>
+                        <button class=" main-btn-md btn rounded-pill main-btn-md-project">Our projects</button>
+                    </div>
+                    <div class="d-none d-lg-flex">
+                        <button class=" main-btn-lg btn rounded-pill">Connection</button>
+                        <button class=" main-btn-lg btn rounded-pill main-btn-lg-project">Our projects</button>
                     </div>
                 </div>
             </div>
