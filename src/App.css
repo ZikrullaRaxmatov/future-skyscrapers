@@ -120,15 +120,19 @@
 }
 
 .row1-col1 {
-  height: 200px;
+  height: 150px;
   background-color: white;
 }
 
 .row1-col2 {
-  height: 200px;
+  height: 150px;
   background-color: white;
 }
 
-.raw i {
+.service-item i {
   color: blue;
+}
+
+.service-item p {
+  color:gray;
 }
