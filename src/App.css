@@ -1,9 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .bg-color-light {
   background-color: rgb(79, 79, 236);
 }
 
-.bg-color-2xlight {
-  background-color: rgb(118, 118, 216);
+.bg-color-gradient {
+  /* background: linear-gradient(to right, blue, white); */
+  background: radial-gradient(blue, white)
 }
 
 .header-text {
@@ -29,8 +36,9 @@
 .main-info {
   position: relative;
   width: 100%;
-  height: 615px;
+  height: 520px;
   color: white;
+  /* background-color: blue; */
 }
 
 .main-info p {
@@ -38,21 +46,6 @@
   font-style: italic;
   font-weight: bold;
   /* color: rgb(59, 59, 238); */
-}
-
-.main-info-p-sm {
-  top: 165px;
-  left: 0px;
-}
-
-.main-info-p-md {
-  top: 255px;
-  right: 175px;
-}
-
-.main-info-p-lg {
-  top: 280px;
-  right: 260px;
 }
 
 .main-info h1 {
@@ -116,23 +109,94 @@
 
 .service-info {
   width: 100%;
-  height: 550px;
+  height: vh;
 }
 
-.row1-col1 {
-  height: 150px;
+.service-item {
   background-color: white;
-}
-
-.row1-col2 {
-  height: 150px;
-  background-color: white;
+  padding: 15px;
 }
 
 .service-item i {
   color: blue;
+  font-size: 35px;
+  margin-right: 15px;
 }
 
 .service-item p {
-  color:gray;
+  font-weight: bold;
+  font-style: italic;
+  color: gray;
 }
+
+
+/* responsive */
+
+@media (min-width: 300px) {
+  .main-info p {
+  top: 165px;
+  left: 10px;
+}
+  
+}
+
+@media (min-width: 576px) {
+
+  .service-item p {
+    font-size: 18px;
+  }
+
+  .service-item i {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .main-info p {
+    top: 255px;
+    left: 342px;
+  }
+
+  .service-item p {
+    font-size: 20px;
+  }
+
+  .service-item i {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .main-info p {
+    top: 255px;
+    left: 500px;
+  }
+
+  .service-item p {
+    font-size: 22px;
+  }
+
+  .service-item i {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .main-info p {
+    top: 255px;
+    left: 680px;
+  }
+
+  .service-item p {
+    font-size: 25px;
+  }
+
+  .service-item i {
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 1400px) {}

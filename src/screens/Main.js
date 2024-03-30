@@ -7,9 +7,9 @@ function Main(props) {
             <img class="main-image" src={mainImg} alt='mainImg' />
             <div class="container">
                 <div class="main-info">
-                    <p class="d-md-none main-info-p-sm">Excellence in everything</p>
-                    <p class="d-none main-info-p-md d-md-block d-lg-none">Excellence in everything</p>
-                    <p class="d-none main-info-p-lg d-lg-block">Excellence in everything</p>
+                    <p>Excellence in everything</p>
+                    {/* <p class="d-none main-info-p-md d-md-block d-lg-none">Excellence in everything</p>
+                    <p class="d-none main-info-p-lg d-lg-block">Excellence in everything</p> */}
 
                     <h1 class="d-md-none main-info-h-sm" >Future <br /> Skyscrapers</h1>
                     <h1 class="d-none main-info-h-md d-md-block d-lg-none " >Future <br /> Skyscrapers</h1>
