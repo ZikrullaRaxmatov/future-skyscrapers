@@ -1,7 +1,7 @@
 import React from 'react';
 import mainImg from '../assets/imageMain.avif'
 
-function Main(props) {
+function Main() {
     return (
         <div className="main" id='main'>
             <img data-aos="fade-right" data-aos-duration="2000" className="main-image" src={mainImg} alt='mainImg' />
@@ -11,8 +11,8 @@ function Main(props) {
                     <h1 data-aos="zoom-in" data-aos-duration="3000" >Future <br /> Skyscrapers</h1>
 
                     <div className="main-btns">
-                        <button className=" btn rounded-pill" data-aos="fade-right" data-aos-duration="3000" >Connection</button>
-                        <button className=" btn rounded-pill" data-aos="fade-right" data-aos-duration="3000" >Our projects</button>
+                        <a href='#communication' className="btn rounded-pill" data-aos="fade-right" data-aos-duration="3000" >Connection</a>
+                        <a href='#projects' className=" btn rounded-pill" data-aos="fade-right" data-aos-duration="3000" >Our projects</a>
                     </div>
                 </div>
             </div>

@@ -66,7 +66,7 @@
   padding: 20px;
 }
 
-.main-btns button {
+.main-btns a {
   color: white;
   border-color: white;
 }
@@ -244,7 +244,7 @@
     top: 340px;
   }
 
-  .main-btns button {
+  .main-btns a {
     display: block;
     width: 100%;
     margin-top: 10px;
@@ -289,7 +289,7 @@
     font-size: 40px;
   }
 
-  .main-btns button {
+  .main-btns a {
     display: block;
     width: 80%;
     margin-left: 50px;
@@ -329,7 +329,7 @@
     top: 360px;
   }
 
-  .main-btns button {
+  .main-btns a {
     width: 20%;
     margin-left: 5px;
   }
@@ -398,7 +398,7 @@
     margin-left: 20px;
   }
 
-  .main-btns button {
+  .main-btns a {
     width: 15%;
     margin-left: 20px;
   }
