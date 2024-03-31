@@ -1,6 +1,7 @@
 
 import './App.css';
 import Company from './screens/Company';
+import Contact from './screens/Contact';
 import Header from './screens/Header';
 import Main from './screens/Main';
 import Projects from './screens/Projects';
@@ -14,6 +15,7 @@ function App() {
       <Services/>
       <Company/>
       <Projects/>
+      <Contact/>
     </div>
   );
 }

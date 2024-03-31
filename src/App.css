@@ -154,6 +154,24 @@
 
 }
 
+/* Conatct */
+
+.card-img {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+}
+
+#textName {
+  background-color: transparent;
+  color: white;
+}
+
+#textPhone {
+  background-color: transparent;
+  color: white;
+}
+
 
 
 /* responsive */
@@ -276,7 +294,7 @@
     margin-top: 20px;
   }
 
-  .project-items .raw{
+  .project-items .raw {
     display: flex;
   }
 
