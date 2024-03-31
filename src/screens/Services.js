@@ -2,7 +2,7 @@ import React from 'react';
 
 function Services() {
     return (
-        <div class="services">
+        <div class="services " id='services'>
             <div class=" service-info pb-5">
                 <div class="container">
                     <h1 class="text-center pt-5">Our services</h1>

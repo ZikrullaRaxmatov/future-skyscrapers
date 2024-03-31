@@ -3,7 +3,7 @@ import mainImg from '../assets/imageMain.avif'
 
 function Main(props) {
     return (
-        <div class="main">
+        <div class="main" id='main'>
             <img class="main-image" src={mainImg} alt='mainImg' />
             <div class="container">
                 <div class="main-info">

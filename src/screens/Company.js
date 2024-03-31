@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 
 function Company() {
     return (
-        <div class="company">
+        <div class="company" id='company'>
             <div class="company-img">
                 <img src={growingImg} alt='growing' />
             </div>
@@ -17,21 +17,21 @@ function Company() {
                     <div class="raw company-info">
                         <div class="left">
                             <div class="col-3">
-                                <h1> <CountUp end={120} /> +</h1>
+                                <h1> <CountUp end={120} duration={6}  /> +</h1>
                                 <p>Number of employees</p>
                             </div>
                             <div class="col-3">
-                                <h1>43 +</h1>
+                                <h1><CountUp end={43} duration={6}/>+</h1>
                                 <p>Objects</p>
                             </div>
                         </div>
                         <div class="right">
                             <div class="col-3 last">
-                                <h1>250 +</h1>
+                                <h1><CountUp end={250} duration={6}/> +</h1>
                                 <p>Special equipment</p>
                             </div>
                             <div class="col-3 last">
-                                <h1>2 +</h1>
+                                <h1><CountUp end={2} duration={6}/> +</h1>
                                 <p>14 years on the market</p>
                             </div>
                         </div>
