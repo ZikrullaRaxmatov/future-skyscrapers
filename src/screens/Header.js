@@ -19,10 +19,11 @@ function Header(props) {
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-white text-center" href="#main">
-                                        <h5>Future
+                                        <h3 class="grand-hotel-regular">
+                                            Future
                                             <br />
                                             Skyscrapers
-                                        </h5>
+                                        </h3>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -45,23 +46,23 @@ function Header(props) {
                                 <span><i class="fa-solid fa-sliders"></i></span>
                             </button>
                         </div>
-                        <div class="col-6 d-flex justify-content-end d-md-none border border-danger ">
+                        <div class="col-6 d-flex justify-content-end d-md-none">
                             <a class="nav-link  d-md-none" href="#!">
                                 <a class="nav-link text-center" href="#main">
-                                    <h5>Future
+                                    <h3 class="grand-hotel-regular">Future
                                         <br />
                                         Skyscrapers
-                                    </h5>
+                                    </h3>
                                 </a>
                             </a>
                             <div class="offcanvas offcanvas-end bg-color-light text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                                 <div class="offcanvas-header">
                                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
                                         <a class="nav-link text-center" href="#main">
-                                            <h5>Future
+                                            <h3 class="grand-hotel-regular">Future
                                                 <br />
                                                 Skyscrapers
-                                            </h5>
+                                            </h3>
                                         </a>
                                     </h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -81,13 +82,15 @@ function Header(props) {
                                             <a class="nav-link text-white" href='#projects'>Projects</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link text-white" href='#news'>News</a>
-                                        </li>
-                                        <li class="nav-item">
                                             <a class="nav-link text-white" href='#communication'>Communication</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link text-white" href='#communication'>En</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#lan" role="button" aria-expanded="false">Lang</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#eng">Eng</a></li>
+                                                <li><a class="dropdown-item" href="#uzb">Uzb</a></li>
+                                                <li><a class="dropdown-item" href="#kor">Kor</a></li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </div>

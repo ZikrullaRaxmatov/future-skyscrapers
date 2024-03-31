@@ -15,7 +15,7 @@ function Company() {
                         <h1 class="mt-1 mt-lg-3">Our Company</h1>
                     </div>
                     <div class="raw company-info">
-                        <div class="left">
+                        <div data-aos="zoom-out" data-aos-duration="2000" class="left">
                             <div class="col-3">
                                 <h1> <CountUp end={120} duration={6}  /> +</h1>
                                 <p>Number of employees</p>
@@ -25,7 +25,7 @@ function Company() {
                                 <p>Objects</p>
                             </div>
                         </div>
-                        <div class="right">
+                        <div data-aos="zoom-in" data-aos-duration="2000" class="right">
                             <div class="col-3 last">
                                 <h1><CountUp end={250} duration={6}/> +</h1>
                                 <p>Special equipment</p>

@@ -6,7 +6,7 @@ function Footer() {
             <div class="container">
                 <div class="raw d-block d-md-flex justify-contet-center mb-3 ">
                     <div class="col-12  col-md-4 text-center mt-4">
-                        <h3>Future <br /> skyscrapers</h3>
+                        <h1 class="grand-hotel-regular">Future <br /> skyscrapers</h1>
                         <h5 class="text-muted">Subscribe to our social networks</h5>
                         <ul class="footer-social-items">
                             <li class="footer-social-item">

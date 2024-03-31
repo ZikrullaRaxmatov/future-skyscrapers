@@ -4,7 +4,7 @@ import contact from '../assets/contact.avif'
 function Contact() {
     return (
         <div class="contact" id='communication'>
-            <div class="card text-bg-dark">
+            <div data-aos="fade-up" data-aos-duration="2000" class="card text-bg-dark">
                 <div class="container">
                     <img src={contact} class="card-img" alt="contact" />
                     <div class="card-img-overlay d-flex justify-content-center align-items-center">

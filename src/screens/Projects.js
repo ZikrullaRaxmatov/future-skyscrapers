@@ -12,7 +12,7 @@ function Projects() {
             <div class="container">
                 <div class="project-items">
                     <h1>Our Projects</h1>
-                    <div class="raw">
+                    <div data-aos="fade-right" data-aos-duration="2000" class="raw">
                         <div class="project-info col-12 col-md-8 p-2">
                             <img src={pro1} alt='pro1' />
                             {/* <h1>BIG street</h1>
@@ -22,7 +22,7 @@ function Projects() {
                             <img src={pro2} alt='pro2' />
                         </div>
                     </div>
-                    <div class="raw">
+                    <div data-aos="flip-up" data-aos-duration="2000" class="raw">
                         <div class="project-info col-12 col-md-4 p-2">
                             <img src={pro3} alt='pro1' />
                             {/* <h1>BIG street</h1>
@@ -32,7 +32,7 @@ function Projects() {
                             <img src={pro4} alt='pro2' />
                         </div>
                     </div>
-                    <div class="raw">
+                    <div data-aos="fade-right" data-aos-duration="2000" class="raw">
                         <div class="project-info col-12 col-md-6 p-2">
                             <img src={pro5} alt='pro1' />
                             {/* <h1>BIG street</h1>
