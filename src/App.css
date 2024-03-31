@@ -172,7 +172,47 @@
   color: white;
 }
 
+/* Footer */
 
+.footer-social-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-social-item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.footer-social-item:hover {
+ cursor: pointer;
+ background: blue;
+ color:white;
+ transition: all 0.5s ease-out;
+}
+
+.footer-company-items {
+  list-style: none;
+}
+
+.footer-company-item a {
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.footer-company-item a:hover {
+  color: blue;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.5s ease-out;
+}
 
 /* responsive */
 
