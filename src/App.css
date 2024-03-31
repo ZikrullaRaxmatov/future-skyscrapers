@@ -8,9 +8,12 @@
   background-color: rgb(79, 79, 236);
 }
 
+.bg-color-services {
+  background-color: #e0b159;
+}
+
 .bg-color-gradient {
-  /* background: linear-gradient(to right, blue, white); */
-  background: radial-gradient(blue, white)
+  background: radial-gradient(#c4631e, white, #ab7e02)
 }
 
 .header-text {
@@ -38,71 +41,34 @@
   width: 100%;
   height: 520px;
   color: white;
-  /* background-color: blue; */
 }
 
 .main-info p {
   position: absolute;
   font-style: italic;
   font-weight: bold;
-  /* color: rgb(59, 59, 238); */
 }
 
 .main-info h1 {
   position: absolute;
 }
 
-.main-info-h-sm {
-  top: 185px;
-  left: 0px;
-  font-size: 50px;
-}
-
-.main-info-h-md {
-  top: 275px;
-  right: 0px;
-  font-size: 65px;
-}
-
-.main-info-h-lg {
-  top: 300px;
-  right: 0px;
-  font-size: 80px;
-}
-
-.main-info button {
+.main-btns {
   position: absolute;
+  width: 100%;
+  padding: 20px;
+}
+
+.main-btns button {
   color: white;
   border-color: white;
 }
 
+
+
 .main-info button:hover {
   background-color: rgb(53, 53, 240);
   border-color: rgb(53, 53, 240);
-}
-
-.main-btn-sm {
-  top: 355px;
-}
-
-.main-btn-md {
-  top: 380px;
-}
-
-.main-btn-lg {
-  top: 435px;
-}
-
-.main-btn-sm-project {
-  margin-top: 50px;
-}
-
-.main-btn-md-project {
-  margin-left: 120px;
-}
-
-.main-btn-lg-project {
-  margin-left: 140px;
 }
 
 /* Services */
@@ -112,9 +78,12 @@
   height: vh;
 }
 
+.service-info h1 {
+  color: blue;
+}
+
 .service-item {
-  background-color: white;
-  padding: 15px;
+  background: radial-gradient(#f7d79b, white)
 }
 
 .service-item i {
@@ -126,7 +95,7 @@
 .service-item p {
   font-weight: bold;
   font-style: italic;
-  color: gray;
+  color: gray
 }
 
 
@@ -134,10 +103,31 @@
 
 @media (min-width: 300px) {
   .main-info p {
-  top: 165px;
-  left: 10px;
-}
-  
+    top: 165px;
+    left: 10px;
+  }
+
+  .main-info h1 {
+    top: 185px;
+    left: 5px;
+    font-size: 50px;
+  }
+
+  .main-btns {
+    top: 340px;
+  }
+
+  .main-btns button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .service-item {
+    padding: 2px;
+    margin-top: 15px;
+  }
+
 }
 
 @media (min-width: 576px) {
@@ -149,6 +139,13 @@
   .service-item i {
     font-size: 40px;
   }
+
+  .main-btns button {
+    display: block;
+    width: 80%;
+    margin-left: 50px;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -156,6 +153,28 @@
   .main-info p {
     top: 255px;
     left: 342px;
+  }
+
+  .main-info h1 {
+    top: 275px;
+    left: 338px;
+    font-size: 65px;
+  }
+
+  .main-btns {
+    display: flex;
+    padding: 5px;
+    top: 360px;
+  }
+
+  .main-btns button {
+    width: 20%;
+    margin-left: 5px;
+  }
+
+  .service-item {
+    margin: 5px;
+    cursor: pointer;
   }
 
   .service-item p {
@@ -171,7 +190,28 @@
 
   .main-info p {
     top: 255px;
+    left: 503px;
+  }
+
+  .main-info h1 {
+    top: 275px;
     left: 500px;
+    font-size: 65px;
+  }
+
+  .main-info h1 {
+    top: 275px;
+    right: 0px;
+    font-size: 65px;
+  }
+
+  .main-btns {
+    margin-left: 20px;
+  }
+
+  .main-btns button {
+    width: 15%;
+    margin-left: 20px;
   }
 
   .service-item p {
@@ -187,7 +227,13 @@
 
   .main-info p {
     top: 255px;
+    left: 685px;
+  }
+
+  .main-info h1 {
+    top: 275px;
     left: 680px;
+    font-size: 65px;
   }
 
   .service-item p {
