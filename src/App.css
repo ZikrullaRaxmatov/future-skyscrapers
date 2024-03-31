@@ -39,7 +39,7 @@
 .main-info {
   position: relative;
   width: 100%;
-  height: 520px;
+  height: 100vh;
   color: white;
 }
 
@@ -97,6 +97,51 @@
   font-style: italic;
   color: gray
 }
+
+
+/* Company */
+
+.company-img {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+}
+
+.company-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.company-items {
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+} 
+
+.company-items .raw {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  color:white;
+}
+
+.company-info {
+  display: flex;
+  top: 155px;
+  border: 1px solid red;
+}
+
+.company .container {
+  height: 100vh;
+  border: 1px solid red;
+}
+
+
+
+
 
 
 /* responsive */
