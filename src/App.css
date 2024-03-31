@@ -104,7 +104,7 @@
 .company-img {
   position: absolute;
   width: 100%;
-  height: 400px;
+  height: 450px;
 }
 
 .company-img img {
@@ -128,18 +128,14 @@
   color:white;
 }
 
-.company-info {
-  display: flex;
-  top: 155px;
-  border: 1px solid red;
-}
+/* .company-info h1, p {
+  color: rgb(194, 190, 190);
+} */
 
-.company .container {
+/* .company .container {
   height: 100vh;
   border: 1px solid red;
-}
-
-
+} */
 
 
 
@@ -171,6 +167,15 @@
   .service-item {
     padding: 2px;
     margin-top: 15px;
+  }
+
+  .company-info {
+    display: block;
+    top: 50px;
+  }
+
+  .col-3 {
+    width: 100%;
   }
 
 }
@@ -229,6 +234,21 @@
   .service-item i {
     font-size: 45px;
   }
+
+  .company-info {
+    top: 120px;
+  }
+
+  .left {
+    display: flex;
+    width: 50%;
+  }
+
+  .right {
+    display: flex;
+    width: 50%;
+    margin-top: 20px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -266,6 +286,22 @@
   .service-item i {
     font-size: 50px;
   }
+
+  .company-info {
+    top: 130px;
+  }
+
+  .left {
+    margin-left: 115px;
+    width: 25%;
+  }
+
+  .right {
+    width: 25%;
+    margin-top: 0;
+    margin-left: 350px;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -287,6 +323,21 @@
 
   .service-item i {
     font-size: 55px;
+  }
+
+  .company-info {
+    top: 130px;
+  }
+
+  .left {
+    margin-left: 170px;
+    width: 25%;
+  }
+
+  .right {
+    width: 25%;
+    margin-top: 0;
+    margin-left: 450px;
   }
 }
 
