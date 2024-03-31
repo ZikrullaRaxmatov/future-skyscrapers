@@ -5,32 +5,32 @@ import CountUp from 'react-countup';
 
 function Company() {
     return (
-        <div class="company" id='company'>
-            <div class="company-img">
+        <div className="company" id='company'>
+            <div className="company-img">
                 <img src={growingImg} alt='growing' />
             </div>
-            <div class="container">
-                <div class="company-items">
-                    <div class="raw">
-                        <h1 class="mt-1 mt-lg-3">Our Company</h1>
+            <div className="container">
+                <div className="company-items">
+                    <div className="raw">
+                        <h1 className="mt-1 mt-lg-3">Our Company</h1>
                     </div>
-                    <div class="raw company-info">
-                        <div data-aos="zoom-out" data-aos-duration="2000" class="left">
-                            <div class="col-3">
+                    <div className="raw company-info">
+                        <div data-aos="zoom-out" data-aos-duration="2000" className="left">
+                            <div className="col-3">
                                 <h1> <CountUp end={120} duration={6}  /> +</h1>
                                 <p>Number of employees</p>
                             </div>
-                            <div class="col-3">
+                            <div className="col-3">
                                 <h1><CountUp end={43} duration={6}/>+</h1>
                                 <p>Objects</p>
                             </div>
                         </div>
-                        <div data-aos="zoom-in" data-aos-duration="2000" class="right">
-                            <div class="col-3 last">
+                        <div data-aos="zoom-in" data-aos-duration="2000" className="right">
+                            <div className="col-3 last">
                                 <h1><CountUp end={250} duration={6}/> +</h1>
                                 <p>Special equipment</p>
                             </div>
-                            <div class="col-3 last">
+                            <div className="col-3 last">
                                 <h1><CountUp end={2} duration={6}/> +</h1>
                                 <p>14 years on the market</p>
                             </div>
