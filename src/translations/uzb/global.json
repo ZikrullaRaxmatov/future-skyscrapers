@@ -4,7 +4,8 @@
         "about": "Haqimizda",
         "services": "Xizmatlar",
         "projects": "Loyihalar",
-        "contact": "Aloqa"
+        "contact": "Aloqa",
+        "lan": "Til"
     },
 
     "main": {
@@ -19,6 +20,37 @@
         "objects": "Ob'yektlar",
         "equipment": "Maxsus jihozlar",
         "experience": "Bozorda 14 yil"
+    },
+
+    "services": {
+        "title": "Bizning xizmatlarimiz",
+        "info1": "Siz bepul",
+        "info2": "ma'lumot olishingiz mumkin",
+        "doc1": "Hujjatlarni",
+        "doc2": "to'g'irlash",
+        "repair1": "Ta'mirlash",
+        "repair2": "xizmati",
+        "team1": "Jamoa",
+        "team2": "professional"
+    },
+
+    "contact": {
+        "title1": "Savollaringiz, takliflaringiz",
+        "title2": "yoki so'rovlar bormi?",
+        "name": "To'liq ismingiz",
+        "phone": "Telefon raqamingiz",
+        "info": "Biz hech kim bilan sizning ma'lumotlaringizni almashmaymiz.",
+        "btnsend": "Yuborish"
+    },
+
+    "footer": {
+        "subscribe": "Ijtimoiy tarmoqlarimizga obuna bo'ling",
+        "title1": "Bizning Kompaniya",
+        "title2": "Aloqa",
+        "main": "Bosh sahifa",
+        "company": "Kompaniya",
+        "services": "Xizmatlar",
+        "projects": "Loyihalar"
     }
 
 

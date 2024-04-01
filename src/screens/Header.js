@@ -1,5 +1,8 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import eng from '../assets/flag-eng.jpg'
+import uzb from '../assets/flag-uzb.png'
+import kor from '../assets/flag-kor.png'
 
 function Header() {
 
@@ -41,11 +44,11 @@ function Header() {
                                     <a className="nav-link header-text" href='#communication'>{t("header.contact")}</a>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle header-text" data-bs-toggle="dropdown" href="#lan" role="button" aria-expanded="false">Lang</a>
+                                    <a className="nav-link dropdown-toggle header-text" data-bs-toggle="dropdown" href="#lan" role="button" aria-expanded="false">{t("header.lan")}</a>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" href="#eng" onClick={() => changeLanguage("en")} >Eng</a></li>
-                                        <li><a className="dropdown-item" href="#uzb" onClick={() => changeLanguage("uz")} >Uzb</a></li>
-                                        <li><a className="dropdown-item" href="#kor" onClick={() => changeLanguage("ko")} >Kor</a></li>
+                                        <li><a className="dropdown-item" href="#eng" onClick={() => changeLanguage("en")} ><img className='rounded me-2' style={{ width: "30px" }} src={eng} alt="Eng" /> English</a></li>
+                                        <li><a className="dropdown-item" href="#uzb" onClick={() => changeLanguage("uz")} ><img className='rounded me-2' style={{ width: "30px" }} src={uzb} alt="Uzb" /> O'zbekcha</a></li>
+                                        <li><a className="dropdown-item" href="#kor" onClick={() => changeLanguage("ko")} ><img className='rounded me-2' style={{ width: "30px" }} src={kor} alt="Kor" /> 한국어</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -93,11 +96,11 @@ function Header() {
                                             <a className="nav-link text-white" href='#communication'>{t("header.contact")}</a>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <a className="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#lan" role="button" aria-expanded="false">Lang</a>
+                                            <a className="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#lan" role="button" aria-expanded="false">{t("header.lan")}</a>
                                             <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#eng" onClick={() => changeLanguage("en")} >Eng</a></li>
-                                                <li><a className="dropdown-item" href="#uzb" onClick={() => changeLanguage("uz")} >Uzb</a></li>
-                                                <li><a className="dropdown-item" href="#kor" onClick={() => changeLanguage("ko")} >Kor</a></li>
+                                                <li><a className="dropdown-item" href="#eng" onClick={() => changeLanguage("en")} ><img className='rounded me-2' style={{ width: "30px" }} src={eng} alt="Eng" /> English</a></li>
+                                                <li><a className="dropdown-item" href="#uzb" onClick={() => changeLanguage("uz")} ><img className='rounded me-2' style={{ width: "30px" }} src={uzb} alt="Uzb" /> O'zbekcha</a></li>
+                                                <li><a className="dropdown-item" href="#kor" onClick={() => changeLanguage("ko")} ><img className='rounded me-2' style={{ width: "30px" }} src={kor} alt="Kor" /> 한국어</a></li>
                                             </ul>
                                         </li>
                                     </ul>

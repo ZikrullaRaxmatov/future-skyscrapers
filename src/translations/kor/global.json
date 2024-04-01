@@ -4,7 +4,8 @@
         "about": "회사 소개",
         "services": "서비스",
         "projects": "프로젝트",
-        "contact": "연락처"
+        "contact": "연락처",
+        "lan": "언어"
     },
 
     "main": {
@@ -19,5 +20,36 @@
         "objects": "오브젝트",
         "equipment": "특수 장비",
         "experience": "14년간의 경험"
+    },
+
+    "services": {
+        "title": "우리의 서비스",
+        "info1": "무료 정보를",
+        "info2": "얻을 수 있습니다",
+        "doc1": "문서",
+        "doc2": "청산",
+        "repair1": "수리",
+        "repair2": "서비스",
+        "team1": "전문가들의",
+        "team2": "팀"
+    },
+
+    "contact": {
+        "title1": "질문, 제안",
+        "title2": "또는 요청이 있으세요?",
+        "name": "전체 이름",
+        "phone": "전화 번호",
+        "info": "우리는 당신의 정보를 다른 사람과 공유하지 않습니다.",
+        "btnsend": "보내기"
+    },
+
+    "footer": {
+        "subscribe": "저희 소셜 네트워크에 구독하세요",
+        "title1": "우리 회사",
+        "title2": "연락처",
+        "main": "홈",
+        "company": "회사",
+        "services": "서비스",
+        "projects": "프로젝트"
     }
 }

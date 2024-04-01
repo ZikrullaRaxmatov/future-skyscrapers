@@ -4,7 +4,8 @@
         "about": "About",
         "services": "Services",
         "projects": "Projects",
-        "contact": "Contact"
+        "contact": "Contact",
+        "lan": "Lan"
     },
 
     "main": {
@@ -22,7 +23,34 @@
     },
 
     "services": {
-        
+        "title": "Our services",
+        "info1": "You can get",
+        "info2": "free information",
+        "doc1": "Documents",
+        "doc2": "clearance",
+        "repair1": "Repair",
+        "repair2": "service",
+        "team1": "Team of",
+        "team2": "professionals"
+    },
+
+    "contact": {
+        "title1": "Do you have any questions,",
+        "title2": "suggestions or requests?",
+        "name": "Full Name",
+        "phone": "Phone Number",
+        "info": "We'll never share your info with anyone else.",
+        "btnsend": "Send"
+    },
+
+    "footer": {
+        "subscribe": "Subscribe to our social networks",
+        "title1": "Our Company",
+        "title2": "Communication",
+        "main": "Main",
+        "company": "Company",
+        "services": "Services",
+        "projects": "Projects"
     }
 
 }
