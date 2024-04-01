@@ -31,10 +31,11 @@
 
 .main-image {
   position: absolute;
+  height: 75vh;
+  width: 100%;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  right: 0;
   object-fit: cover;
 }
 
@@ -46,23 +47,23 @@
 .main-info {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   color: white;
+  border: 1px solid red;
 }
 
-.main-info p {
+.main-title {
   position: absolute;
+}
+
+.main-title p {
   font-style: italic;
   font-weight: bold;
 }
 
-.main-info h1 {
-  position: absolute;
-}
 
 .main-btns {
   position: absolute;
-  width: 100%;
   padding: 20px;
 }
 
@@ -71,9 +72,7 @@
   border-color: white;
 }
 
-
-
-.main-info button:hover {
+.main-info a:hover {
   background-color: rgb(53, 53, 240);
   border-color: rgb(53, 53, 240);
 }
@@ -229,19 +228,29 @@
 /* responsive */
 
 @media (min-width: 300px) {
-  .main-info p {
-    top: 165px;
-    left: 10px;
+
+  .main-image,
+  .main-info {
+    height: 70vh;
   }
 
-  .main-info h1 {
-    top: 185px;
-    left: 5px;
-    font-size: 50px;
+  .main-title {
+    top: 40%;
+    left: 5%;
+  }
+
+  .title-h {
+    font-size: 5vh;
+  }
+
+  .title-p {
+    font-size: 2vh;
   }
 
   .main-btns {
-    top: 340px;
+    width: 100%;
+    top: 70%;
+    left: 0%;
   }
 
   .main-btns a {
@@ -281,9 +290,9 @@
 
 @media (min-width: 576px) {
 
-  .service-item p {
+  /* .service-item p {
     font-size: 18px;
-  }
+  } */
 
   .service-item i {
     font-size: 40px;
@@ -312,7 +321,12 @@
 
 @media (min-width: 768px) {
 
-  .main-info p {
+  .main-image,
+  .main-info {
+    height: 75vh;
+  }
+
+  /* .main-info p {
     top: 255px;
     left: 342px;
   }
@@ -321,7 +335,7 @@
     top: 275px;
     left: 338px;
     font-size: 65px;
-  }
+  } */
 
   .main-btns {
     display: flex;
@@ -377,30 +391,30 @@
 
 @media (min-width: 992px) {
 
-  .main-info p {
-    top: 255px;
-    left: 503px;
+  .main-image,
+  .main-info {
+    height: 75vh;
   }
 
-  .main-info h1 {
-    top: 275px;
-    left: 500px;
-    font-size: 65px;
+  .main-image,
+  .main-info {
+    height: 100vh;
   }
 
-  .main-info h1 {
-    top: 275px;
-    right: 0px;
-    font-size: 65px;
+  .main-title {
+    top: 50%;
+    left: 55%;
+  }
+
+  .main-title h1,
+  p {
+    font-size: 13vh;
   }
 
   .main-btns {
-    margin-left: 20px;
-  }
-
-  .main-btns a {
-    width: 15%;
-    margin-left: 20px;
+    width: 70%;
+    top: 75%;
+    left: 5%;
   }
 
   .service-item p {
@@ -436,15 +450,25 @@
 
 @media (min-width: 1200px) {
 
-  .main-info p {
-    top: 255px;
-    left: 685px;
+  .main-image,
+  .main-info {
+    height: 100vh;
   }
 
-  .main-info h1 {
-    top: 275px;
-    left: 680px;
-    font-size: 65px;
+  .main-title {
+    top: 50%;
+    left: 55%;
+  }
+
+  .main-title h1,
+  p {
+    font-size: 13vh;
+  }
+
+  .main-btns {
+    width: 70%;
+    top: 75%;
+    left: 5%;
   }
 
   .service-item p {
