@@ -1,0 +1,23 @@
+{
+    "header": {
+        "main": "홈",
+        "about": "회사 소개",
+        "services": "서비스",
+        "projects": "프로젝트",
+        "contact": "연락처"
+    },
+
+    "main": {
+        "subtitle": "모든 것에 뛰어남",
+        "btnconnection": "연락하기",
+        "btnprojects": "우리 프로젝트"
+    },
+
+    "about": {
+        "title": "우리 회사",
+        "employees": "직원 수",
+        "objects": "오브젝트",
+        "equipment": "특수 장비",
+        "experience": "14년간의 경험"
+    }
+}

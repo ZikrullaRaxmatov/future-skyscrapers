@@ -1,0 +1,25 @@
+{
+    "header": {
+        "main": "Asosiy",
+        "about": "Haqimizda",
+        "services": "Xizmatlar",
+        "projects": "Loyihalar",
+        "contact": "Aloqa"
+    },
+
+    "main": {
+        "subtitle": "Har bir narsada muvaffaqiyat",
+        "btnconnection": "Aloqa",
+        "btnprojects": "Bizning loyihalar"
+    },
+
+    "about": {
+        "title": "Bizning Kompaniya",
+        "employees": "Ishchilar soni",
+        "objects": "Ob'yektlar",
+        "equipment": "Maxsus jihozlar",
+        "experience": "Bozorda 14 yil"
+    }
+
+
+}

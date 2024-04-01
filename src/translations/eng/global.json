@@ -1,0 +1,28 @@
+{
+    "header": {
+        "main": "Main",
+        "about": "About",
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+
+    "main": {
+        "subtitle": "Excellence in everything",
+        "btnconnection": "Connection",
+        "btnprojects": "Our projects"
+    },
+
+    "about": {
+        "title": "Our Company",
+        "employees": "Number of employees",
+        "objects": "Objects",
+        "equipment": "Special equipment",
+        "experiance": "14 years on the market"
+    },
+
+    "services": {
+        
+    }
+
+}

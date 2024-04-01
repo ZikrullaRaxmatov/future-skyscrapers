@@ -5,6 +5,10 @@ import repair from '../assets/repair1.avif'
 import prof from '../assets/team1.avif'
 
 function Services() {
+
+    // eslint-disable-next-line
+    const [t, i18n] = useTranslation("global")
+
     return (
         <div className="services " id='services'>
             <div className=" service-info pb-5">
