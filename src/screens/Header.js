@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import eng from '../assets/flag-eng.jpg'
 import uzb from '../assets/flag-uzb.png'
@@ -7,14 +7,25 @@ import kor from '../assets/flag-kor.png'
 function Header() {
 
     const [t, i18n] = useTranslation("global")
+    const [bgColor, setBgColor] = useState(false);
+
+    const changeHeaderColor = () => {
+        if (window.scrollY >= 600) {
+            setBgColor(true)
+        } else {
+            setBgColor(false)
+        }
+    }
 
     const changeLanguage = (lan) => {
         i18n.changeLanguage(lan)
     }
 
+    window.addEventListener('scroll', changeHeaderColor)
+
     return (
-        <div className='header'>
-            <nav className="navbar fixed-top mt-3">
+        <div className="header" >
+            <nav className={bgColor ? 'navbar fixed-top header-scroll-bg' : "navbar fixed-top" }>
                 <div className="container ">
                     <div className="raw d-flex w-100">
                         <div className="col-6 col-md-12 ">

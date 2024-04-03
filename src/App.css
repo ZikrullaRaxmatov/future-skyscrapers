@@ -23,6 +23,13 @@
   background: radial-gradient(#c4631e, white, #ab7e02)
 }
 
+/* Header */
+
+.header-scroll-bg{
+  background: linear-gradient( rgb(92, 92, 247), white);
+  transition: all 1s ease-in-out;
+}
+
 .header-text {
   color: rgb(59, 59, 238);
 }
