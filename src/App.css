@@ -26,7 +26,7 @@
 /* Header */
 
 .header-scroll-bg{
-  background: linear-gradient( rgb(92, 92, 247), white);
+  background: linear-gradient( rgb(63, 169, 255), white);
   transition: all 1s ease-in-out;
 }
 
