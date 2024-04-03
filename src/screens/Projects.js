@@ -15,7 +15,7 @@ function Projects() {
     return (
         <div className="projects" id='projects'>
             <div className="container">
-                <div className="project-items">
+                <div className="project-items mt-4">
                     <h1>{t("projects.title")}</h1>
                     <div data-aos="fade-right" data-aos-duration="2000" className="raw">
                         <div className="project-info col-12 col-md-8 p-2">
