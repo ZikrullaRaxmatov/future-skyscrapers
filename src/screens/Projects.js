@@ -5,13 +5,18 @@ import pro3 from '../assets/pro3.avif'
 import pro4 from '../assets/pro4.avif'
 import pro5 from '../assets/pro5.avif'
 import pro6 from '../assets/pro6.avif'
+import { useTranslation } from 'react-i18next';
 
 function Projects() {
+
+    // eslint-disable-next-line
+    const [t, i18n] = useTranslation("global")
+
     return (
         <div className="projects" id='projects'>
             <div className="container">
                 <div className="project-items">
-                    <h1>Our Projects</h1>
+                    <h1>{t("projects.title")}</h1>
                     <div data-aos="fade-right" data-aos-duration="2000" className="raw">
                         <div className="project-info col-12 col-md-8 p-2">
                             <img src={pro1} alt='pro1' />

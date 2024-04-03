@@ -34,6 +34,10 @@
         "team2": "professional"
     },
 
+    "projects": {
+        "title": "Bizning Loyihalar"
+    },
+
     "contact": {
         "title1": "Savollaringiz, takliflaringiz",
         "title2": "yoki so'rovlar bormi?",

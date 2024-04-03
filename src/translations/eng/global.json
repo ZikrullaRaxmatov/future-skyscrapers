@@ -34,10 +34,14 @@
         "team2": "professionals"
     },
 
+    "projects": {
+        "title": "Our Projects"
+    },
+
     "contact": {
         "title1": "Do you have any questions,",
         "title2": "suggestions or requests?",
-        "name": "Full Name",
+        "name": "Password",
         "phone": "Phone Number",
         "info": "We'll never share your info with anyone else.",
         "btnsend": "Send"
