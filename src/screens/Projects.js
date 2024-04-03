@@ -18,33 +18,63 @@ function Projects() {
                 <div className="project-items mt-4">
                     <h1>{t("projects.title")}</h1>
                     <div data-aos="fade-right" data-aos-duration="2000" className="raw">
-                        <div className="project-info col-12 col-md-8 p-2">
-                            <img src={pro1} alt='pro1' />
-                            {/* <h1>BIG street</h1>
-                            <p className="mt-5">The Big Street is a 1942 American drama film starring Henry Fonda and Lucille Ball, based on the 1940 short story "Little Pinks" by Damon Runyon</p> */}
+                        <div className=" col-12 col-md-8 p-2">
+                            <div className='project-info'>
+                                <img src={pro1} alt='pro1' />
+                                {/* <div className='projects-content'>
+                                    <h1>BIG street</h1>
+                                    <p className="mt-5">The Big Street is a 1942 American drama film starring Henry Fonda and Lucille Ball, based on the 1940 short story "Little Pinks" by Damon Runyon</p>
+                                </div> */}
+                            </div>
                         </div>
                         <div className="col-12 col-md-4 p-2">
-                            <img src={pro2} alt='pro2' />
-                        </div>
-                    </div>
-                    <div data-aos="flip-up" data-aos-duration="2000" className="raw">
-                        <div className="project-info col-12 col-md-4 p-2">
-                            <img src={pro3} alt='pro1' />
-                            {/* <h1>BIG street</h1>
-                            <p className="mt-5">The Big Street is a 1942 American drama film starring Henry Fonda and Lucille Ball, based on the 1940 short story "Little Pinks" by Damon Runyon</p> */}
-                        </div>
-                        <div className="col-12 col-md-8 p-2">
-                            <img src={pro4} alt='pro2' />
+                            <div className='project-info'>
+                                <img src={pro2} alt='pro2' />
+                                {/* <div className='projects-content'>
+                                    <h1>BIG street</h1>
+                                    <p className="mt-5">The Big Street is a 1942 American drama film starring Henry Fonda and Lucille Ball, based on the 1940 short story "Little Pinks" by Damon Runyon</p>
+                                </div> */}
+                            </div>
                         </div>
                     </div>
                     <div data-aos="fade-right" data-aos-duration="2000" className="raw">
-                        <div className="project-info col-12 col-md-6 p-2">
-                            <img src={pro5} alt='pro1' />
-                            {/* <h1>BIG street</h1>
-                            <p className="mt-5">The Big Street is a 1942 American drama film starring Henry Fonda and Lucille Ball, based on the 1940 short story "Little Pinks" by Damon Runyon</p> */}
+                        <div className="col-12 col-md-4 p-2">
+                            <div className='project-info'>
+                                <img src={pro3} alt='pro3' />
+                                {/* <div className='projects-content'>
+                                    <h1>BIG street</h1>
+                                    <p className="mt-5">The Big Street is a 1942 American drama film starring Henry Fonda and Lucille Ball, based on the 1940 short story "Little Pinks" by Damon Runyon</p>
+                                </div> */}
+                            </div>
+                        </div>
+                        <div className="col-12 col-md-8 p-2">
+                            <div className='project-info'>
+                                <img src={pro4} alt='pro4' />
+                                {/* <div className='projects-content'>
+                                    <h1>BIG street</h1>
+                                    <p className="mt-5">The Big Street is a 1942 American drama film starring Henry Fonda and Lucille Ball, based on the 1940 short story "Little Pinks" by Damon Runyon</p>
+                                </div> */}
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="2000" className="raw">
+                        <div className="col-12 col-md-6 p-2">
+                            <div className='project-info'>
+                                <img src={pro5} alt='pro5' />
+                                {/* <div className='projects-content'>
+                                    <h1>BIG street</h1>
+                                    <p className="mt-5">The Big Street is a 1942 American drama film starring Henry Fonda and Lucille Ball, based on the 1940 short story "Little Pinks" by Damon Runyon</p>
+                                </div> */}
+                            </div>
                         </div>
                         <div className="col-12 col-md-6 p-2">
-                            <img src={pro6} alt='pro2' />
+                        <div className='project-info'>
+                                <img src={pro6} alt='pro6' />
+                                {/* <div className='projects-content'>
+                                    <h1>BIG street</h1>
+                                    <p className="mt-5">The Big Street is a 1942 American drama film starring Henry Fonda and Lucille Ball, based on the 1940 short story "Little Pinks" by Damon Runyon</p>
+                                </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

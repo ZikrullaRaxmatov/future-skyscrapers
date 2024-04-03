@@ -150,6 +150,27 @@
   position: relative;
 }
 
+.project-items img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.project-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
 .project-items img:hover {
   transition: all 0.5s ease-out;
   opacity: 0.5;
