@@ -226,7 +226,7 @@
 @media (min-width: 300px) {
 
   .main-title {
-    top: 40%;
+    top: 35%;
     left: 5%;
   }
 
@@ -240,7 +240,7 @@
 
   .main-btns {
     width: 100%;
-    top: 70%;
+    top: 65%;
     left: 0%;
   }
 
@@ -310,12 +310,12 @@
 @media (min-width: 768px) {
 
   .main-title {
-    top: 49%;
+    top: 40%;
     left: 5%;
   }
 
   .title-h {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .title-p {
@@ -325,7 +325,7 @@
   .main-btns {
     display: flex;
     padding-left: 5%;
-    top: 80%;
+    top: 75%;
   }
 
   .main-btns a {
@@ -377,7 +377,7 @@
 @media (min-width: 992px) {
 
   .main-title {
-    top: 49%;
+    top: 45%;
     left: 55%;
   }
 
@@ -391,7 +391,7 @@
 
   .main-btns {
     width: 70%;
-    top: 75%;
+    top: 72%;
     left: 5%;
   }
 
@@ -443,7 +443,7 @@
 
   .main-btns {
     width: 70%;
-    top: 75%;
+    top: 72%;
     left: 5%;
   }
 
